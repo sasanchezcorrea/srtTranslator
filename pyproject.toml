@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "tst"
+version = "0.1.0"
+description = ""
+authors = ["Santiago Sanchez Correa <santiago.a.sanchez@basf.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+googletrans = "4.0.0-rc1"
+deep-translator = "^1.11.4"
+fastapi = "^0.115.6"
+uvicorn = "^0.32.1"
+python-multipart = "^0.0.19"
+langdetect = "^1.0.9"
+ruff = "^0.8.2"
+pyright = "^1.1.390"
+aiofiles = "^24.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
